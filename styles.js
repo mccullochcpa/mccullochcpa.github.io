@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "body {\n  font-family: Copperplate, \"Copperplate Gothic Light\";\n  background-image: url('background.jpg');\n  background-position: center;\n}\n.sub-title {\n  text-align: center;\n}\n.home {\n  text-align: center;\n  margin-left: 100px;\n  margin-right:100px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usb0RBQW9EO0VBQ3BELHVDQUFnRDtFQUNoRCwyQkFBMkI7QUFDN0I7QUFDQTtFQUNFLGtCQUFrQjtBQUNwQjtBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixrQkFBa0I7QUFDcEIiLCJmaWxlIjoic3JjL3N0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcbiAgZm9udC1mYW1pbHk6IENvcHBlcnBsYXRlLCBcIkNvcHBlcnBsYXRlIEdvdGhpYyBMaWdodFwiO1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuL2Fzc2V0cy9iYWNrZ3JvdW5kLmpwZ1wiKTtcbiAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xufVxuLnN1Yi10aXRsZSB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmhvbWUge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG1hcmdpbi1sZWZ0OiAxMDBweDtcbiAgbWFyZ2luLXJpZ2h0OjEwMHB4O1xufVxuIl19 */", '', '']]
+module.exports = [[module.i, "body {\n  font-family: Copperplate, \"Copperplate Gothic Light\";\n  /*background-image: url(\"./assets/background.jpg\");*/\n  background-color: #ffffff;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23cacaca' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E\");\n}\n.sub-title {\n  text-align: center;\n}\n.home {\n  text-align: center;\n  margin-left: 100px;\n  margin-right:100px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usb0RBQW9EO0VBQ3BELG9EQUFvRDtFQUNwRCx5QkFBeUI7RUFDekIsZ1NBQWdTO0FBQ2xTO0FBQ0E7RUFDRSxrQkFBa0I7QUFDcEI7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCIiwiZmlsZSI6InNyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGZvbnQtZmFtaWx5OiBDb3BwZXJwbGF0ZSwgXCJDb3BwZXJwbGF0ZSBHb3RoaWMgTGlnaHRcIjtcbiAgLypiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCIuL2Fzc2V0cy9iYWNrZ3JvdW5kLmpwZ1wiKTsqL1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJkYXRhOmltYWdlL3N2Zyt4bWwsJTNDc3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzEwMCcgaGVpZ2h0PScxOTknIHZpZXdCb3g9JzAgMCAxMDAgMTk5JyUzRSUzQ2cgZmlsbD0nJTIzY2FjYWNhJyBmaWxsLW9wYWNpdHk9JzAuNCclM0UlM0NwYXRoIGQ9J00wIDE5OVYwaDF2MS45OUwxMDAgMTk5aC0xLjEyTDEgNC4yMlYxOTlIMHpNMTAwIDJoLS4xMmwtMS0ySDEwMHYyeiclM0UlM0MvcGF0aCUzRSUzQy9nJTNFJTNDL3N2ZyUzRVwiKTtcbn1cbi5zdWItdGl0bGUge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5ob21lIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW4tbGVmdDogMTAwcHg7XG4gIG1hcmdpbi1yaWdodDoxMDBweDtcbn1cbiJdfQ== */", '', '']]
 
 /***/ }),
 
@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/valeriemcculloch/Projects/source-code/source/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /Users/th27938/Desktop/cpa/source-code/source/src/styles.css */"./src/styles.css");
 
 
 /***/ })

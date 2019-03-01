@@ -241,7 +241,7 @@ var ContactComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".afoot {\n    color: #fff;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 30px;\n    text-align: center;\n}\n\na{\n    color:white;\n    text-decoration: none;\n}\n\na:hover{\n    color:black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksV0FBVztJQUNYLGtCQUFrQjtJQUNsQixTQUFTO0lBQ1QsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmFmb290IHtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgYm90dG9tOiAwO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMzBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmF7XG4gICAgY29sb3I6d2hpdGU7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG5hOmhvdmVye1xuICAgIGNvbG9yOmJsYWNrO1xufSJdfQ== */"
+module.exports = ".afoot {\n    color: #000;\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 30px;\n    text-align: center;\n}\n\na{\n    color:#000;\n    text-decoration: none;\n}\n\na:hover{\n    color:#1a75a2;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksV0FBVztJQUNYLGtCQUFrQjtJQUNsQixTQUFTO0lBQ1QsV0FBVztJQUNYLFlBQVk7SUFDWixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxVQUFVO0lBQ1YscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksYUFBYTtBQUNqQiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hZm9vdCB7XG4gICAgY29sb3I6ICMwMDA7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDMwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5he1xuICAgIGNvbG9yOiMwMDA7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG5hOmhvdmVye1xuICAgIGNvbG9yOiMxYTc1YTI7XG59Il19 */"
 
 /***/ }),
 
@@ -252,7 +252,7 @@ module.exports = ".afoot {\n    color: #fff;\n    position: absolute;\n    botto
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"afoot\">\n  <div style=\"border: 1px solid #fff;text-align: center\"></div>\n  <div style=\"font-size:12px;text-align: center;\">\n    <a routerLink=\"/\">Home</a>&nbsp;|&nbsp;\n    <a routerLink=\"/services\">Services</a>&nbsp;|&nbsp;\n    <a routerLink=\"/contact\">Contact</a>\n  </div>\n  <div style=\"font-size:10px;text-align: center;\">\n    Copyright 2019 McCulloch & Company | All Rights Reserved\n  </div>\n</footer>\n"
+module.exports = "<footer class=\"afoot\">\n  <div style=\"border: 1px solid #000;text-align: center\"></div>\n  <div style=\"font-size:12px;text-align: center;\">\n    <a routerLink=\"/\">Home</a>&nbsp;|&nbsp;\n    <a routerLink=\"/services\">Services</a>&nbsp;|&nbsp;\n    <a routerLink=\"/contact\">Contact</a>\n  </div>\n  <div style=\"font-size:10px;text-align: center;\">\n    Copyright 2019 McCulloch & Company | All Rights Reserved\n  </div>\n</footer>\n"
 
 /***/ }),
 
@@ -353,7 +353,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  background-color: #333;\n}\n\nli a {\n  display: block;\n  color: white;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n}\n\nli a:hover {\n  background-color: #fff;\n  color: #000;\n}\n\n.nav-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0VBQ3JCLFNBQVM7RUFDVCxVQUFVO0VBQ1YsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxzQkFBc0I7RUFDdEIsV0FBVztBQUNiOztBQUVBO0VBQ0UsZUFBZTtFQUNmLE1BQU07RUFDTixPQUFPO0VBQ1AsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsidWwge1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbn1cblxubGkgYSB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBjb2xvcjogd2hpdGU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgcGFkZGluZzogMTRweCAxNnB4O1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5cbmxpIGE6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBjb2xvcjogIzAwMDtcbn1cblxuLm5hdi1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgd2lkdGg6IDEwMCU7XG59XG4iXX0= */"
+module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  background-color: #333;\n}\n\n\n\nli a {\n  display: block;\n  color: white;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n}\n\n\n\nli a:hover {\n  background-color: #1a75a2;\n  color: #fff;\n}\n\n\n\n.nav-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0VBQ3JCLFNBQVM7RUFDVCxVQUFVO0VBQ1YsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtBQUN4Qjs7OztBQUlBO0VBQ0UsY0FBYztFQUNkLFlBQVk7RUFDWixrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLHFCQUFxQjtBQUN2Qjs7OztBQUlBO0VBQ0UseUJBQXlCO0VBQ3pCLFdBQVc7QUFDYjs7OztBQUdBO0VBQ0UsZUFBZTtFQUNmLE1BQU07RUFDTixPQUFPO0VBQ1AsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsidWwge1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbn1cblxuXG5cbmxpIGEge1xuICBkaXNwbGF5OiBibG9jaztcbiAgY29sb3I6IHdoaXRlO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDE0cHggMTZweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG5cblxubGkgYTpob3ZlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxYTc1YTI7XG4gIGNvbG9yOiAjZmZmO1xufVxuXG5cbi5uYXYtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGxlZnQ6IDA7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4iXX0= */"
 
 /***/ }),
 
@@ -364,7 +364,7 @@ module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header>\n  <div class=\"nav-container\">\n    <nav>\n      <ul>\n        <li style=\"float:left\"><a routerLink=\"/\">McCulloch & Company</a></li>\n        <li style=\"float:right\"><a routerLink=\"/contact\">Contact</a></li>\n        <li style=\"float:right\"><a routerLink=\"/services\">Services</a></li>\n        <li style=\"float:right\"><a routerLink=\"/\">Home</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
+module.exports = "<header>\n  <div class=\"nav-container\">\n    <nav>\n      <ul>\n        <li style=\"float:left\"><a routerLink=\"/\">\n            McCulloch & Company\n          </a></li>\n        <li style=\"float:right\"><a routerLink=\"/contact\">Contact</a></li>\n        <li style=\"float:right\"><a routerLink=\"/services\">Services</a></li>\n        <li style=\"float:right\"><a routerLink=\"/\">Home</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
 
 /***/ }),
 
@@ -519,7 +519,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/valeriemcculloch/Projects/source-code/source/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/th27938/Desktop/cpa/source-code/source/src/main.ts */"./src/main.ts");
 
 
 /***/ })
